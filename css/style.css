@@ -2,7 +2,7 @@
     position: -webkit-sticky;
     position: sticky;
     width: 20%;
-    top: 25%;
+    top: 5%;
     height: 100%;
     /*flex-basis: 20%;*/
 }
@@ -13,8 +13,21 @@
     overflow: hidden;
 }
 
+.mainTitle{
+    justify-content: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    /*text-align: justify;
+    text-justify: inter-word;*/
+}
+
 .mainText{
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .profilePhoto{
