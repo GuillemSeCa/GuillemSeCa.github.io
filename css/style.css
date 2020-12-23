@@ -1,0 +1,66 @@
+.leftPart{
+    position: -webkit-sticky;
+    position: sticky;
+    width: 20%;
+    top: 25%;
+    height: 100%;
+    /*flex-basis: 20%;*/
+}
+.rightPart{
+    width: 100%;
+    font-family: times;
+    font-size: x-large;
+    overflow: hidden;
+}
+
+.mainText{
+    justify-content: center;
+}
+
+.profilePhoto{
+    max-width: 100%;
+    height: auto;
+}
+
+.gridContainer {
+    display: flex;
+    flex-basis: auto auto;
+    /* background-color: red; */
+    padding: 10px;
+}
+/* Vertical navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 100%;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    font-family: times;
+    font-size: x-large;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+} 
+
+.active {
+    background-color: rgb(170, 30, 30);
+    color: white;
+  }
+
+/* END Vertical navigation bar */
+/*
+body {
+    background: linear-gradient(to bottom right, gray 0%, black 100%);
+}
+*/
